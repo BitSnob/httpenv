@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: bitsnob/httpenv:latest,bitsnob/httpenv:01
+          tags: thiasdockaccount/httpenv:latest,thiasdockaccount/httpenv:01
